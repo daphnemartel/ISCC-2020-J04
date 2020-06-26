@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "OpenSans.ttf";
+    src: url('Open_Sans.ttf') format('truetype');
+}
+
+html {
+    font-family: "OpenSans.ttf";
+    font-size: 14px;
+    background-color: #f2f2f2;
+    max-width: 810px;
+    text-align: center;
+}
+
+header {
+    background-image: url('https://epitechfr.sharepoint.com/sites/ISCC2020/Documents%20partages/Lille/Jour%204/texture-header.jpg');
+    border: 2px solid purple;
+    height: 150px;
+    background-size: cover;
+}
+
+
