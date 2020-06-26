@@ -5,16 +5,43 @@
         <title>Contacts</title>
     </head>
     <body>
-        <header>
-            <h1>Summer Code Camp</h1>
-            <nav class="menu">
-                <ul>
-                    <li><a href="vitrine-accueil.html">Accueil</a></li>
-                    <li><a href="vitrine-programme.html">Programme</a></li>
-                    <li><a href="vitrine-contacts.html">Contacts</a></li>
-                </ul>
-            </nav>
+        
+            <header style="background-image:url('https://epitechfr.sharepoint.com/sites/ISCC2020/Documents%20partages/Lille/Jour%204/texture-header.jpg');">
+                <div id="titre"><h1>Summer Code Camp</h1></div>
+               
+                <nav>
+                        <a href="vitrine-accueil.html">Accueil</a>
+                        <a href="vitrine-programme.html">Programme</a>
+                        <a href="vitrine-contacts.html">Contacts</a>
+                </nav>
             <img href="texture-header.jpg" alt="coucou">
         </header>
+
+        <h2>Contact</h2>
+
+        <form action="file:///C:/xampp1/htdocs/ISCC-2020/Jour-04/ISCC-2020-J04/vitrine-contacts.html" method="post">
+            <div id="nom">
+                 <a href="#"><label for="name">Nom: </label></a>
+               <input type="text" id="name" name="user_name">
+            </div>
+
+            <div id="mail">
+                <a href="#"><label for="mail">E-mail: </label></a>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+
+            <div id="message">
+                <a href="#"><label for="msg">Message: </label></a>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            </form>
+
+            <div>
+                <a href="#"></a>
+                <input type="submit" value="Envoyer">
+            </div>
+
+            
+
     </body>
     </html> 

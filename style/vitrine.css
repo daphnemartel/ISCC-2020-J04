@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "OpenSans.ttf";
-    src: url('Open_Sans.ttf') format('truetype');
+    font-family: 'OpenSans.ttf';
+    src: url('Open_Sans/OpenSans-Light.ttf') format('truetype');
 }
 
 html {
-    font-family: "OpenSans.ttf";
+    font-family: 'OpenSans.ttf';
     font-size: 14px;
     background-color: #f2f2f2;
     max-width: 810px;
@@ -14,8 +14,93 @@ html {
 header {
     background-image: url('https://epitechfr.sharepoint.com/sites/ISCC2020/Documents%20partages/Lille/Jour%204/texture-header.jpg');
     border: 2px solid purple;
-    height: 150px;
     background-size: cover;
+    vertical-align: middle;
+}
+
+h1 {
+    font-family: 'nasalization-rg.ttf';
+    font-size: 40px;
+    color: #27d1ff;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'nasalization-rg.ttf';
+    src: url('nasalization-rg.ttf') format('truetype');
+}
+
+#titre {
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #2e2f30;
+    padding-right: 50px;
+    margin: 0px;
+    color: white;
+    text-align: right;
+}
+
+a:hover {
+    background-color: #17c1ff;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px palevioletred;
+    color: #2E2F2F;
+}
+
+p {
+    width: 750px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+table {
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 245px;
+    height: 480px;
+}
+
+.p3 {
+    background: #27d1ff;
+    color: white;
+}
+
+.p4 {
+    background: #27d1ff;
+    color: white;
+}
+
+#tableau {
+    max-width: 810px;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 8px;
+}
+
+#nom {
+    width: 250px;
+    height: 30px;
+    border: 2px solid #2E2F2F
+}
+
+#mail {
+    width: 250px;
+    height: 30px;
+    border: 2px solid #2E2F2F
 }
 
 
+#message {
+    width: 250px;
+    border: 2px solid #2E2F2F
+}
